@@ -702,8 +702,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _bindJs = require("./helpers/bind.js");
 var _bindJsDefault = parcelHelpers.interopDefault(_bindJs);
 "use strict";
-var global = arguments[3];
 var process = require("process");
+var global = arguments[3];
 // utils is a library of generic helper functions non-specific to axios
 const { toString  } = Object.prototype;
 const { getPrototypeOf  } = Object;
