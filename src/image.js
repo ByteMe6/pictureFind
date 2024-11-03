@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const api = "46720151-df3e0447f69496992d48f69c6";
-let find = "volcano";
 const editorsChoice = true;
 
 const imagesPerPage = 8;

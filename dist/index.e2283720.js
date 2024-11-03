@@ -507,7 +507,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
 const api = "46720151-df3e0447f69496992d48f69c6";
-let find = "volcano";
 const editorsChoice = true;
 const imagesPerPage = 8;
 let currentPage = 1;
