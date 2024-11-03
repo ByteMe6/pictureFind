@@ -546,7 +546,6 @@ function loadImages() {
 // Функция обновления изображений
 function updateImages() {
     const startIndex = (currentPage - 1) * imagesPerPage;
-    const endIndex = startIndex + imagesPerPage;
     imgElements.forEach((imgElement, index)=>{
         const image = imageData[startIndex + index];
         imgElement.src = image ? image.webformatURL : "404.jpg";
